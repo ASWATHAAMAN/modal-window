@@ -21,14 +21,68 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
-li{
+li {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
 }
-img{
+img {
   width: 100%;
   height: auto;
   object-fit: contain;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  gap: 1rem;
+}
+.btn-one {
+  padding: 0.5rem;
+  background-color: var(--clr-oxford-blue);
+  color: var(--clr-bakermiller-pink);
+  border: 1px solid var(--clr-oxford-blue);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-two {
+  padding: 0.5rem;
+  background-color: var(--clr-oxford-blue);
+  color: var(--clr-bakermiller-pink);
+  border: 1px solid var(--clr-oxford-blue);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-three {
+  padding: 0.5rem;
+  background-color: var(--clr-oxford-blue);
+  color: var(--clr-bakermiller-pink);
+  border: 1px solid var(--clr-oxford-blue);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.modal-container{
+  position: relative;
+}
+.modal-body {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  background-color: var(--clr-slate-gray);
+  border: 1px solid var(--clr-oxford-blue-3);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow:0px 5px 15px black
+}
+.close-btn{
+  position: absolute;
+  left: 52rem;
+  top:10px;
+  font-size: 1.75rem;
+  cursor: pointer;
 }

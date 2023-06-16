@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML | CSS | Javascript | Boiler Plate</title>
-    <link rel="shortcut icon" href="./images/dress-code.png" type="image/x-icon">
+    <title>modal window</title>
+    <link
+      rel="shortcut icon"
+      href="./images/dress-code.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link
@@ -17,6 +21,31 @@
     />
   </head>
   <body>
+    <main>
+      <div class="button-container">
+        <button class="btn-one" id="btn-one" type="button">button one</button>
+        <button class="btn-two" id="btn-two" type="button">button two</button>
+        <button class="btn-three" id="btn-three" type="button">
+          button three
+        </button>
+      </div>
+      <div class="modal-container" id="modal-container">
+        <div class="close-btn" id="close-btn">
+          <i class="fa-solid fa-square-xmark"></i>
+        </div>
+        <div class="modal-body">
+          <h1 class="modal-title">Confirm Your Details</h1>
+          <div class="modal-text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              molestias sed aspernatur! Quidem alias modi eveniet eius ratione
+              accusantium, vel architecto atque minima facilis laborum, neque
+              minus culpa libero aperiam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
     <script src="./scripts/script.js"></script>
   </body>
 </html>
