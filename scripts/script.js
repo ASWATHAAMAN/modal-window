@@ -15,6 +15,9 @@ const modalContainerEl = document.getElementById(`modal-container`);
  };
   
 // event listeners
-
+buttonOneEl.addEventListener = (`click`,()=>{
+  modalContainerEl.classList.remove(`close`);
+  modalContainerEl.classList.add(`open`);
+})
 // initial settings
 init();
