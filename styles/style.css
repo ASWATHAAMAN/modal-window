@@ -42,7 +42,7 @@ img {
 .btn-one {
   padding: 0.5rem;
   background-color: var(--clr-oxford-blue);
-  color: var(--clr-bakermiller-pink);
+  color: var(--clr-baker-miller-pink);
   border: 1px solid var(--clr-oxford-blue);
   border-radius: 10px;
   cursor: pointer;
@@ -50,7 +50,7 @@ img {
 .btn-two {
   padding: 0.5rem;
   background-color: var(--clr-oxford-blue);
-  color: var(--clr-bakermiller-pink);
+  color: var(--clr-baker-miller-pink);
   border: 1px solid var(--clr-oxford-blue);
   border-radius: 10px;
   cursor: pointer;
@@ -63,7 +63,7 @@ img {
   border-radius: 10px;
   cursor: pointer;
 }
-.modal-container{
+.modal-container {
   position: relative;
 }
 .modal-body {
@@ -77,19 +77,24 @@ img {
   border: 1px solid var(--clr-oxford-blue-3);
   border-radius: 12px;
   padding: 1rem;
-  box-shadow:0px 5px 15px black
+  box-shadow: 0px 5px 15px black;
 }
-.close-btn{
+.close-btn {
   position: absolute;
-  left: 52rem;
-  top:10px;
+  left: 52rem; 
+  top: 10px;
   font-size: 1.75rem;
   cursor: pointer;
 }
-.close{
+.close {
   display: none;
 }
-.open{
+.open {
   display: block;
 }
-
+.overlay {
+  width: 100%;
+  height: 50%;
+  background-color: var(--clr-lilac);
+  position: absolute;
+}
